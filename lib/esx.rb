@@ -103,7 +103,7 @@ module ESX
       datastores
     end
 
-    # Create a Virtual Machine
+    # Create a Virtual Machine (modified)
     #
     # Requires a Hash with the following keys:
     #
@@ -116,7 +116,7 @@ module ESX
     #   :datastore => datastore1 #(string, optional)
     #   :disk_file => path to vmdk inside datastore (optional)
     #   :disk_type => flat, sparse (default flat)
-	#   :hw_version => 8 #(int, optional)
+	  #   :hw_version => 8 #(int, optional)
     # }
     #
     # supported guest_id list:
